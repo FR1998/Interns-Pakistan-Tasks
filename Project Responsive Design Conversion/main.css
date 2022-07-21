@@ -1,0 +1,121 @@
+body{
+    background-color: #589ED9;
+}
+
+.container{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 140px;
+    text-align: center;
+} 
+
+#header .logo .fa-weibo{
+    font-size: 50px;
+    color:white;
+}
+
+#header h1 {
+    font-size: 40px;
+    color:white;
+}
+
+#loginForm .containerFields{
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 20px;
+}
+
+#loginForm .containerFields input[type="email"],#loginForm .containerFields input[type="password"]{
+width: 100%;
+font-family: 'Open Sans', sans-serif;
+border:none;
+padding : 0px ; margin : 0px;
+outline: none;
+font-size: 15px;
+padding-top: 10px;
+padding-bottom: 10px;
+text-indent: 20px;
+border-radius: 20px;
+}
+
+#loginForm .containerFields input[type="password"]{
+    border-top: 1px solid white;
+}
+
+#loginForm input[type="submit"]{
+display: block;
+width: 100%;
+font-family: 'Open Sans', sans-serif;
+border:none;
+background-color:#0B6AB4;
+font-size: 22px;
+font-weight: bold;
+color: white;
+height : 45px;
+margin-top: 15px;
+padding: 15px , 30px;
+border-radius: 5px;
+}
+
+#loginForm input[type="submit"]:hover{
+background-color: rgb(126, 113, 113);
+cursor: pointer;
+}
+
+.footer p{
+color: white;
+font-size: 20px;
+}
+
+.footer p a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left:0px;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  li:last-child {
+    border-right: none;
+  }
+
+  .titleNav{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .active {
+    background-color: #589ED9;
+  }
+
+  .fa-search{
+    color:white;
+    font-size:20px;
+  }
